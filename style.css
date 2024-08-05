@@ -141,6 +141,7 @@ form {
     align-items: stretch;
 
     margin-top: 5%;
+    padding-bottom: 5%;
     flex: 4;
     background-color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
@@ -206,6 +207,8 @@ input:last-child:invalid {
 }
 
 button {
+    align-self: flex-start;
+
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 6%;
