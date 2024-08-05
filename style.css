@@ -39,7 +39,7 @@ body {
     }
 }
 
-.image-container {  
+.image-container {
     flex: 1 1;
     background-image: url("./images/leaves.jpg");
     background-size: cover;
@@ -75,6 +75,19 @@ body {
     color: white;
     font-size: 54px;
     font-family: "Norse-Bold";
+}
+
+.image-container > div:last-child {
+    position: absolute;
+    top: 95%;
+    left: 25%;
+
+    color: white;
+    font-size: 12px;
+}
+
+.image-container a {
+    color: white;
 }
 
 .content-container {
