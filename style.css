@@ -33,6 +33,12 @@ body {
     overflow: scroll;
 }
 
+@media (max-width: 519px) {
+    .image-container {
+        display: none;
+    }
+}
+
 .image-container {  
     flex: 1 1;
     background-image: url("./images/leaves.jpg");
