@@ -2,5 +2,15 @@
     margin: 0;
     padding: 0;
 
-    outline: 1px solid black;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: rgb(213, 213, 213);
+    box-sizing: border-box;
 }
