@@ -108,7 +108,32 @@ body {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+
     flex: 4;
+}
+
+.section-1 {
+    flex: 1;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+    flex: 5;
+}
+
+.part-1 {
+    flex: 1;
+}
+
+.part-2 {
+    flex: 1;
 }
 
 .sign-up {
