@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
+    /* border: 3px solid black; */
 }
 
 html {
@@ -9,10 +11,9 @@ html {
     justify-content: center;
     align-items: center;
 
-    height: 100vh;
+    min-height: 100vh;
 
     background-color: rgb(213, 213, 213);
-    box-sizing: border-box;
 }
 
 
@@ -21,9 +22,10 @@ body {
     justify-content: stretch;
     align-items: stretch;
 
-    width: 1263px;
-    height: 800px;
-    box-sizing: border-box;
+    width: 947.25px;
+    height: 600px;
+
+    overflow: scroll;
 }
 
 .image-container {  
@@ -31,7 +33,36 @@ body {
     background-image: url("./images/leaves.jpg");
     background-size: cover;
 
-    width: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.image-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    position: absolute;
+    top: 20%;
+
+    height: 10%;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.image-title > img {
+    height: 100%;
+    width: auto;
+
+    object-fit: cover;
+}
+
+.image-title > p {
+    color: white;
+    font-size: 54px;
 }
 
 .content-container {
