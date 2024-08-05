@@ -146,6 +146,7 @@ form {
     display: flex;
     justify-content: stretch;
     align-items: stretch;
+    gap: 5px;
 
     padding-bottom: 5%;
     flex: 5;
