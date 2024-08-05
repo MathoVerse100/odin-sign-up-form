@@ -14,3 +14,16 @@ html {
     background-color: rgb(213, 213, 213);
     box-sizing: border-box;
 }
+
+
+body {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+    width: 1263px;
+    height: 800px;
+    box-sizing: border-box;
+}
+
+
